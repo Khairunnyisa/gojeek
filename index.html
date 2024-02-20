@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
+    
+  </head>
+  <body>
+    <nav class="text-white w-full uppercase tracking-[0.22] md:text-[22px] p-5 md:p-20 fixed z-50">
+      <div class="container mx-auto flex flex-row justify-between items-center">
+          <div>
+              <img src="asset/gojek-logo.png" alt="" />
+          </div>
+          <ul class="hidden md:flex flex-row gap-16 justify-center">
+              <li><a href="detail.html">About Us</a></li>
+              <li><a href="#service">Service</a></li>
+              <li><a href="#layanan">Layanan</a></li>
+
+              <li class="relative">
+                <a class="bg-[#00880D] text-white rounded-md py-5 px-6" href="signup.html">SIGN UP</a>
+            </li>
+
+              <li class="relative">
+                  <a class="bg-[#00880D] text-white rounded-md py-5 px-6" href="login.html">LOGIN</a>
+                  <span class="absolute h-4 w-4 top-0 right-0 transform translate-x-1/2 -translate-y-1/2 bg-yellow-400 rounded-full animate-ping"></span>
+                  <span class="absolute h-4 w-4 top-0 right-0 transform translate-x-1/2 -translate-y-1/2 bg-yellow-300 rounded-full"></span>
+              </li>
+
+          </ul>
+
+          <!-- mobil dev -->
+          <div class="md:hidden">
+              <div class="space-y-1 rotate-180" id="humberger">
+                  <div class="w-6 h-0.5 bg-green"></div>
+                  <div class="w-6 h-0.5 bg-green"></div>
+                  <div class="w-6 h-0.5 bg-green"></div>
+              </div>
+
+              <ul class="flex flex-col justify-start gap-5 h-screen absolute top-0 left-0 bg-green p-10 items-start -translate-x-full transition-all" id="mobile_nav">
+                  <li><a href="detail.html">About Us</a></li>
+                  <li><a href="#service">Service</a></li>
+                  <li><a href="#layanan">Layanan</a></li>
+                  <li><a href="signup.html">Sign up</a></li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+
+  <!-- HEADER -->
+  <section class="flex flex-col mx-auto bg-hero pt-10 md:pt-22">
+      <div class="py-[240px] pl-[150px]">
+          <h1 class="text-white h1">
+              3 negara.<br />
+              20+ layanan.<br />
+              1 platform<br />
+              on-demand<br />
+              terkemuka.
+          </h1>
+      </div>
+      <p class=""></p>
+      <div class=""></div>
+  </section>
+
+    <!-- about -->
+    <section class="flex flex-col items-center justify-center md:h-[580px] bg-[#01050C] text-white">
+      <div class="text-center mb-8">
+        <h2 class="text-[55px] font-bold">
+          Kenalin, Gojek.<br />
+          Si pembawa perubahan
+        </h2>
+      </div>
+      <div>
+        <a href="#" class="bg-green hover:bg-yellow-400 text-white font-bold py-4 px-8 rounded-full">Gabung</a>
+      </div>
+    </section>
+
+    <!-- service -->
+
+    <section class="mt-10 md:mt-[300px] bg-white rounded-t-[80px] pb-10 md:pb-20 justify-between" id="service">
+      <div class="container mx-auto mt-8 xl:-mt-[300px]">
+        <!-- grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-28 px-8 xl:px-0">
+          <!-- grid item -->
+          <div class="services__item bg-transparent p-[30px] rounded-[10px] shadow-custom2 min-h-[288px] flex flex-col items-center text-center">
+            <!-- grid item icon -->
+            <div class="mb-[15px]">
+              <img class="z-10 relative" src="asset/img-1.png" alt="" style="margin-top: -150px" />
+            </div>
+            <!-- grid items title -->
+            <h3 class="h3 mb-[10px]">Fortune Top 20</h3>
+            <!-- grid items desc -->
+            <p class="font-light leading-normal max-w-[300px]">Satu-satunya perusahaan di Asia Tenggara yang dua kali berada di daftar Perusahaan Pengubah Dunia versi majalah Fortune</p>
+          </div>
+
+          <!-- grid item -->
+          <div class="services__item bg-transparent p-[30px] rounded-[10px] shadow-custom2 min-h-[288px] flex flex-col items-center text-center relative">
+            <!-- grid item icon -->
+            <div class="mb-[15px]">
+              <img class="z-10 relative" src="asset/img-2.png" alt="" style="margin-top: -150px" />
+            </div>
+            <!-- grid items title -->
+            <h3 class="h3 mb-[10px]">Berkontribusi lebih dari $7.1 triliun</h3>
+            <!-- grid items desc -->
+            <p class="font-light leading-normal max-w-[300px]">Penggerak roda perekonomian Indonesia</p>
+          </div>
+
+          <!-- grid item -->
+          <div class="services__item bg-transparent p-[30px] rounded-[10px] shadow-custom2 min-h-[288px] flex flex-col items-center text-center relative">
+            <!-- grid item icon -->
+            <div class="mb-[15px]">
+              <img class="z-10 relative" src="asset/img-3.png" alt="" style="margin-top: -150px" />
+            </div>
+            <!-- grid items title -->
+            <h3 class="h3 mb-[10px]">Jaket hijau, pergerakan juga hijau</h3>
+            <!-- grid items desc -->
+            <p class="font-light leading-normal max-w-[300px]">Gojek mengurangi pemakaian plastik hingga 11.3 ton sejak Oktober 2020</p>
+          </div>
+
+          <!-- grid item -->
+          <div class="services__item bg-transparent p-[30px] rounded-[10px] shadow-custom2 min-h-[288px] flex flex-col items-center text-center relative">
+            <!-- grid item icon -->
+            <div class="mb-[15px]">
+              <img class="z-10 relative" src="asset/img-4.png" alt="" style="margin-top: -150px" />
+            </div>
+            <!-- grid items title -->
+            <h3 class="h3 mb-[10px]">Tumbuh 80% sejak pandemi</h3>
+            <!-- grid items desc -->
+            <p class="font-light leading-normal max-w-[300px]">Mitra Food merchants naik 80% sejak pandemi berkat solusi digitalisasi Gojek untuk UMKM.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="bg-white py-6 md:py-12">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="lg:text-center">
+          <h2 class="h2 mt-2 leading-8 font-bold tracking-tight text-gray-900">Kerja di gojek itu beda karena...</h2>
+        </div>
+
+        <div class="mt-10">
+          <div class="grid grid-cols-1 gap-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 pb-10">
+            <!-- Slide 1 -->
+            <div class="group relative shadow-lg rounded-[30px] overflow-hidden hover:shadow-xl hover:-translate-y-3 transition duration-300">
+              <div>
+                <div class="relative">
+                  <img src="asset/reason-1.png" alt="Product 1" class="object-cover object-center w-full h-96" />
+                  <div class="absolute z-10 bottom-2">
+                    <p class="text-white h3 p-4">Asuransi kesehatan buat ayah ibu</p>
+                  </div>
+                </div>
+              </div>
+              <div class="absolute inset-0 bg-gray-900 bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                <a href="#" class="bg-green hover:bg-yellow-400 text-white font-bold py-4 px-8 rounded-full absolute bottom-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">Gabung</a>
+              </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="group relative shadow-lg rounded-[30px] overflow-hidden hover:shadow-xl hover:-translate-y-3 transition duration-300">
+              <div>
+                <div class="relative">
+                  <img src="asset/reason-2.png" alt="Product 1" class="object-cover object-center w-full h-96" />
+                  <div class="absolute z-10 bottom-2">
+                    <p class="text-white h3 p-4">Asuransi kesehatan buat ayah ibu</p>
+                  </div>
+                </div>
+              </div>
+              <div class="absolute inset-0 bg-gray-900 bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                <a href="#" class="bg-green hover:bg-yellow-400 text-white font-bold py-4 px-8 rounded-full absolute bottom-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">Gabung</a>
+              </div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="group relative shadow-lg rounded-[30px] overflow-hidden hover:shadow-xl hover:-translate-y-3 transition duration-300">
+              <div>
+                <div class="relative">
+                  <img src="asset/reason-3.png" alt="Product 1" class="object-cover object-center w-full h-96" />
+                  <div class="absolute z-10 bottom-2">
+                    <p class="text-white h3 p-4">Asuransi kesehatan buat ayah ibu</p>
+                  </div>
+                </div>
+              </div>
+              <div class="absolute inset-0 bg-gray-900 bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                <a href="#" class="bg-green hover:bg-yellow-400 text-white font-bold py-4 px-8 rounded-full absolute bottom-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">Gabung</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="flex flex-col mx-auto bg-section4 pt-22 h-[1000px] bg-no-repeat bg-cover relative">
+      <h1 class="h1 my-auto pl-[150px] text-white">
+        Nikmati berbagai<br />macam reward khusus<br />
+        untukmu di sini!
+      </h1>
+      <div class="relative bottom-[200px] pl-[150px]">
+        <a href="#" class="bg-green hover:bg-yellow-400 text-white font-bold py-4 px-8 rounded-full absolute bottom-8">Gabung</a>
+      </div>
+    </section>
+
+    <!-- layanan section -->
+
+    <section class="flex flex-col items-center justify-center md:h-[580px] bg-[#101820] text-white" id="layanan">
+      <div class="text-center mb-8">
+        <h2 class="h2 md:text-4xl lg:text-5xl font-bold">
+          Kami membangun layanan<br />
+          untuk membantumu melewati halangan
+        </h2>
+      </div>
+      <div>
+        <a href="#" class="bg-green hover:bg-yellow-400 text-white font-bold py-2 px-6 md:py-4 md:px-8 rounded-full">Lihat Semua Layanan</a>
+      </div>
+    </section>
+
+    
+    
+    
+    <div class="flex flex-col items-center justify-center md:h-[830px] bg-[#101820] text-white pt-10 md:pt-22 relative overflow-hidden">
+      <div class="bg-cardsection bg-no-repeat bg-contain w-full h-full absolute top-0 left-0 animate-bg-slide"></div>
+    </div>
+  
+    
+    <section class="flex flex-col items-center justify-center md:h-[580px] bg-[#4AC9E3] text-black">
+  <div class="text-center mb-8 md:mb-16">
+    <h2 class="h2 md:text-4xl lg:text-5xl font-bold">
+      Kami membangun layanan<br />
+      untuk membantumu melewati halangan
+    </h2>
+  </div>
+  <div>
+    <a href="#" class="bg-green hover:bg-yellow-400 text-white font-bold py-4 px-8 rounded-full">Lihat Semua Layanan</a>
+  </div>
+</section>
+
+
+    <!-- exlore -->
+
+    <div class="flex flex-col bg-explorebg bg-center items-center justify-center md:h-[1000px] bg-[#4AC9E3] text-white md:pt-21">
+      <img class="w-full h-full object-cover md:w-[854px] md:h-[820.15px] animate-spin-slow" src="asset/explore.png" alt="" />
+    </div>
+    
+
+    <!-- download section -->
+    <section class="flex bg-[#01050C] flex-col mx-auto bg-downloadsection pt-22 h-[1000px] bg-no-repeat bg-cover relative">
+      <h1 class="h1 my-auto pl-[150px] text-white">
+        Nikmati berbagai<br />
+        macam reward khusus<br />
+        untukmu di sini!
+      </h1>
+      <div class="relative bottom-[200px] pl-[150px]">
+        <a href="#" class="bg-green hover:bg-yellow-400 text-white font-bold py-4 px-8 rounded-full absolute bottom-8">Gabung</a>
+      </div>
+    </section>
+
+
+
+    <footer class="bg-gray-800 text-gray-300">
+      <div class="container mx-auto py-12 px-4">
+        <div class="mb-14">
+          <img src="asset/gojek-logowhite.svg" alt="logo-white" />
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-5 gap-8">
+          <div class="col-span-2 md:col-span-1">
+            <h4 class="text-[30px] font-semibold mb-5">Company</h4>
+            <ul>
+              <li class="mb-3 text-[20px]"><a href="#" class="hover:text-white">About</a></li>
+              <li class="mb-3 text-[20px]"><a href="#" class="hover:text-white">Products</a></li>
+              <li class="mb-3 text-[20px]"><a href="#" class="hover:text-white">Blog</a></li>
+            </ul>
+          </div>
+          <div class="col-span-2 md:col-span-1">
+            <h4 class="text-[30px] font-semibold mb-5">Join with us</h4>
+            <ul>
+              <li class="mb-3 text-[20px]"><a href="#" class="hover:text-white">Driver Partners</a></li>
+              <li class="mb-3 text-[20px]"><a href="#" class="hover:text-white">Merchant Partners</a></li>
+            </ul>
+          </div>
+          <div class="col-span-2 md:col-span-1">
+            <h4 class="text-[30px] font-semibold mb-5">Careers</h4>
+            <ul>
+              <li class="mb-3 text-[20px]"><a href="#" class="hover:text-white">Student</a></li>
+              <li class="mb-3 text-[20px]"><a href="#" class="hover:text-white">Professional</a></li>
+            </ul>
+          </div>
+          <div class="col-span-2 md:col-span-1">
+            <h4 class="text-[30px] font-semibold mb-5">Get in Touch</h4>
+            <ul>
+              <li class="mb-3 text-[20px]"><a href="#" class="hover:text-white">Help Center</a></li>
+              <li class="mb-3 text-[20px]"><a href="#" class="hover:text-white">Our Location</a></li>
+            </ul>
+          </div>
+          <div class="col-span-5 md:col-span-1">
+            <h4 class="text-[30px] font-semibold mb-5">Connect With Us</h4>
+            <ul class="flex text-[40px] gap-9 mb-10">
+              <li><i class="ri-facebook-fill"></i></li>
+              <li><i class="ri-twitter-x-line"></i></li>
+              <li><i class="ri-instagram-line"></i></li>
+              <li><i class="ri-youtube-fill"></i></li>
+            </ul>
+            <h4 class="text-[30px] font-semibold mb-5">Download the App</h4>
+            <ul class="flex text-[40px] gap-9">
+              <i class="ri-google-play-fill"></i>
+              <i class="ri-apple-fill"></i>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+    
+
+    <!-- JS -->
+    <script src="script.js"></script>
+   
+  </body>
+</html>
