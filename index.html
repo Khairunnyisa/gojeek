@@ -7,8 +7,6 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <script src="https://unpkg.com/scrollreveal"></script>
-    
-    
   </head>
   <body>
     <nav class="text-white w-full uppercase tracking-[0.22] md:text-[22px] p-5 md:p-20 fixed z-50">
@@ -20,19 +18,16 @@
               <li><a href="detail.html">About Us</a></li>
               <li><a href="#service">Service</a></li>
               <li><a href="#layanan">Layanan</a></li>
-
-              <li class="relative">
-                <a class="bg-[#00880D] text-white rounded-md py-5 px-6" href="signup.html">SIGN UP</a>
-            </li>
-
-              <li class="relative">
-                  <a class="bg-[#00880D] text-white rounded-md py-5 px-6" href="login.html">LOGIN</a>
+              <li class="relative md:inline-block">
+                  <a class="bg-[#00880D] text-white rounded-md py-5 px-6" href="signup.html">SIGN UP</a>
+              </li>
+              <li class="relative md:inline-block">
+                  <a class="bg-[#00880D] text-white rounded-md py-5 px-6" href="login.html">SIGN IN</a>
                   <span class="absolute h-4 w-4 top-0 right-0 transform translate-x-1/2 -translate-y-1/2 bg-yellow-400 rounded-full animate-ping"></span>
                   <span class="absolute h-4 w-4 top-0 right-0 transform translate-x-1/2 -translate-y-1/2 bg-yellow-300 rounded-full"></span>
               </li>
-
           </ul>
-
+  
           <!-- mobil dev -->
           <div class="md:hidden">
               <div class="space-y-1 rotate-180" id="humberger">
@@ -40,31 +35,36 @@
                   <div class="w-6 h-0.5 bg-green"></div>
                   <div class="w-6 h-0.5 bg-green"></div>
               </div>
-
-              <ul class="flex flex-col justify-start gap-5 h-screen absolute top-0 left-0 bg-green p-10 items-start -translate-x-full transition-all" id="mobile_nav">
+  
+              <ul class="flex flex-col justify-start gap-5 h-screen absolute top-0 left-0 bg-green p-10 items-start -translate-x-full transition-all"
+                  id="mobile_nav">
                   <li><a href="detail.html">About Us</a></li>
                   <li><a href="#service">Service</a></li>
                   <li><a href="#layanan">Layanan</a></li>
                   <li><a href="signup.html">Sign up</a></li>
+                  <li><a href="login.html">Sign in</a></li>
               </ul>
           </div>
       </div>
   </nav>
+  
+  
 
-  <!-- HEADER -->
-  <section class="flex flex-col mx-auto bg-hero pt-10 md:pt-22">
+    <!-- HEADER -->
+    <section class="flex flex-col mx-auto bg-hero pt-10 md:pt-22">
       <div class="py-[240px] pl-[150px]">
-          <h1 class="text-white h1">
-              3 negara.<br />
-              20+ layanan.<br />
-              1 platform<br />
-              on-demand<br />
-              terkemuka.
-          </h1>
+        <h1 class="text-white h1">
+          <span class="hover:bg-yellow-400 hover:text-green transition duration-300">3 negara.</span><br />
+          <span class="hover:bg-yellow-400 hover:text-green transition duration-300">20+ layanan.</span><br />
+          <span class="hover:bg-yellow-400 hover:text-green transition duration-300">1 platform</span><br />
+          <span class="hover:bg-yellow-400 hover:text-green transition duration-300">on-demand</span><br />
+          <span class="hover:bg-yellow-400 hover:text-green transition duration-300">terkemuka.</span>
+      </h1>
+      
       </div>
       <p class=""></p>
       <div class=""></div>
-  </section>
+    </section>
 
     <!-- about -->
     <section class="flex flex-col items-center justify-center md:h-[580px] bg-[#01050C] text-white">
@@ -75,7 +75,7 @@
         </h2>
       </div>
       <div>
-        <a href="#" class="bg-green hover:bg-yellow-400 text-white font-bold py-4 px-8 rounded-full">Gabung</a>
+        <a href="#" class="bg-green hover:bg-[#03700C] text-white font-bold py-4 px-8 rounded-full">Gabung</a>
       </div>
     </section>
 
@@ -155,7 +155,7 @@
                 </div>
               </div>
               <div class="absolute inset-0 bg-gray-900 bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
-                <a href="#" class="bg-green hover:bg-yellow-400 text-white font-bold py-4 px-8 rounded-full absolute bottom-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">Gabung</a>
+                <a href="#" class="bg-green hover:bg-[#03700C] text-white font-bold py-4 px-8 rounded-full absolute bottom-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">Gabung</a>
               </div>
             </div>
             <!-- Slide 2 -->
@@ -169,7 +169,7 @@
                 </div>
               </div>
               <div class="absolute inset-0 bg-gray-900 bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
-                <a href="#" class="bg-green hover:bg-yellow-400 text-white font-bold py-4 px-8 rounded-full absolute bottom-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">Gabung</a>
+                <a href="#" class="bg-green hover:bg-[#03700C] text-white font-bold py-4 px-8 rounded-full absolute bottom-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">Gabung</a>
               </div>
             </div>
             <!-- Slide 3 -->
@@ -183,7 +183,7 @@
                 </div>
               </div>
               <div class="absolute inset-0 bg-gray-900 bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
-                <a href="#" class="bg-green hover:bg-yellow-400 text-white font-bold py-4 px-8 rounded-full absolute bottom-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">Gabung</a>
+                <a href="#" class="bg-green hover:bg-[#03700C] text-white font-bold py-4 px-8 rounded-full absolute bottom-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">Gabung</a>
               </div>
             </div>
           </div>
@@ -197,7 +197,7 @@
         untukmu di sini!
       </h1>
       <div class="relative bottom-[200px] pl-[150px]">
-        <a href="#" class="bg-green hover:bg-yellow-400 text-white font-bold py-4 px-8 rounded-full absolute bottom-8">Gabung</a>
+        <a href="#" class="bg-green hover:bg-[#03700C] text-white font-bold py-4 px-8 rounded-full absolute bottom-8">Gabung</a>
       </div>
     </section>
 
@@ -211,37 +211,31 @@
         </h2>
       </div>
       <div>
-        <a href="#" class="bg-green hover:bg-yellow-400 text-white font-bold py-2 px-6 md:py-4 md:px-8 rounded-full">Lihat Semua Layanan</a>
+        <a href="#" class="bg-green hover:bg-[#03700C] text-white font-bold py-2 px-6 md:py-4 md:px-8 rounded-full">Lihat Semua Layanan</a>
       </div>
     </section>
 
-    
-    
-    
     <div class="flex flex-col items-center justify-center md:h-[830px] bg-[#101820] text-white pt-10 md:pt-22 relative overflow-hidden">
       <div class="bg-cardsection bg-no-repeat bg-contain w-full h-full absolute top-0 left-0 animate-bg-slide"></div>
     </div>
-  
-    
-    <section class="flex flex-col items-center justify-center md:h-[580px] bg-[#4AC9E3] text-black">
-  <div class="text-center mb-8 md:mb-16">
-    <h2 class="h2 md:text-4xl lg:text-5xl font-bold">
-      Kami membangun layanan<br />
-      untuk membantumu melewati halangan
-    </h2>
-  </div>
-  <div>
-    <a href="#" class="bg-green hover:bg-yellow-400 text-white font-bold py-4 px-8 rounded-full">Lihat Semua Layanan</a>
-  </div>
-</section>
 
+    <section class="flex flex-col items-center justify-center md:h-[580px] bg-[#4AC9E3] text-black">
+      <div class="text-center mb-8 md:mb-16">
+        <h2 class="h2 md:text-4xl lg:text-5xl font-bold">
+          Kami membangun layanan<br />
+          untuk membantumu melewati halangan
+        </h2>
+      </div>
+      <div>
+        <a href="#" class="bg-green hover:bg-[#03700C] text-white font-bold py-4 px-8 rounded-full">Lihat Semua Layanan</a>
+      </div>
+    </section>
 
     <!-- exlore -->
 
     <div class="flex flex-col bg-explorebg bg-center items-center justify-center md:h-[1000px] bg-[#4AC9E3] text-white md:pt-21">
       <img class="w-full h-full object-cover md:w-[854px] md:h-[820.15px] animate-spin-slow" src="asset/explore.png" alt="" />
     </div>
-    
 
     <!-- download section -->
     <section class="flex bg-[#01050C] flex-col mx-auto bg-downloadsection pt-22 h-[1000px] bg-no-repeat bg-cover relative">
@@ -251,13 +245,11 @@
         untukmu di sini!
       </h1>
       <div class="relative bottom-[200px] pl-[150px]">
-        <a href="#" class="bg-green hover:bg-yellow-400 text-white font-bold py-4 px-8 rounded-full absolute bottom-8">Gabung</a>
+        <a href="#" class="bg-green hover:bg-[#03700C] text-white font-bold py-4 px-8 rounded-full absolute bottom-8">Gabung</a>
       </div>
     </section>
 
-
-
-    <footer class="bg-gray-800 text-gray-300">
+    <footer class="bg-[#01050C] text-gray-300">
       <div class="container mx-auto py-12 px-4">
         <div class="mb-14">
           <img src="asset/gojek-logowhite.svg" alt="logo-white" />
@@ -310,12 +302,7 @@
       </div>
     </footer>
 
-
-
-    
-
     <!-- JS -->
     <script src="script.js"></script>
-   
   </body>
 </html>
